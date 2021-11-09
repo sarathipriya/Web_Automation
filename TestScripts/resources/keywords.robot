@@ -26,7 +26,7 @@ LoginDetails
     [Documentation]    User keyword to get login details                           
     [Arguments]       ${URL}      ${userxpath}    ${username}    ${passwordxpath}     ${password}     ${dropdownxpath} 
     GoTo              ${URL}          
-    VerifySelectedOption          ${dropdownxpath}     robotic.copado.com          
+    ClickElement      ${dropdownxpath}            
     ClickElement     ${userxpath}
     TypeText         ${userxpath}                      ${username} 
     ClickElement     ${passwordxpath}
