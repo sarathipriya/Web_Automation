@@ -16,9 +16,9 @@ ${CopadoPassword}      Priya@2021
 
 *** Test Cases ***
 Login copado
-    [Documentation]    Testcase to verify the login fuctionality of Copado Tool
-    DropDown            ${CopadoXpath.region}                        robotic.copado.com                                
+    [Documentation]    Testcase to verify the login fuctionality of Copado Tool                                                             
     LoginDetails       ${CopadoURL}      ${CopadoXpath.user}     ${CopadoUsername}    ${CopadoXpath.password}    ${CopadoPassword}
+    DropDown           ${CopadoXpath.region}                robotic.copado.com  
     ClickElement     ${CopadoXpath.submit}
     VerifyElement    ${CopadoXpath.Loginverify}
                      
