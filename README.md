@@ -11,7 +11,7 @@ Below is the project structure to be followed for developing Test Suites and Tes
 **   project_name** (root folder)
 ├── tests
 
-  ├ ├── ├──my_suite.robot
+ 						├── ├──my_suite.robot
   
 ├── resources 
 	├── ├──					   ├── locators.robot 
