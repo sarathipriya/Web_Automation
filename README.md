@@ -15,8 +15,10 @@ Below is the project structure to be followed for developing Test Suites and Tes
  	├── ├──my_suite.robot
   
 ├── resources 
-	├── ├──					   ├── locators.robot 
- ├───├──					   ├── keywords.robot 
+
+	├── ├──	locators.robot 
+	
+ 	├───├─keywords.robot 
 
 ├── libraries 
 
