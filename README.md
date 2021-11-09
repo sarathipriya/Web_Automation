@@ -9,12 +9,16 @@ This Objective of the project is to test the Web features and functionalities us
 Below is the project structure to be followed for developing Test Suites and Test Cases
 
 **   project_name** (root folder)
-├── tests 
+├── tests
+
   ├ ├── ├──my_suite.robot
+  
 ├── resources 
 	├── ├──					   ├── locators.robot 
  ├───├──					   ├── keywords.robot 
+
 ├── libraries 
+
 ├──results
 
 
