@@ -18,7 +18,7 @@ ${CopadoPassword}      Priya@2021
 Run Tescase with VideoStream
 
     [Documentation]    Testcase to verify the login fuctionality of Copado Tool
-    LoginDetails       ${CopadoURL}      ${CopadoXpath.user}     ${CopadoUsername}    ${CopadoXpath.password}    ${CopadoPassword}
+    LoginDetails       ${CopadoURL}      ${CopadoXpath.user}     ${CopadoUsername}    ${CopadoXpath.password}    ${CopadoPassword}    ${CopadoXpath.region}
     ClickElement     ${CopadoXpath.submit}
     VerifyElement    ${CopadoXpath.Loginverify}
     ClickText        Run example tests
