@@ -3,7 +3,7 @@ Documentation           User Keywords for web features. It enables code reusabil
 Library                 QWeb
 *** Keywords ***
 QentinelLOGIN 
-    [Documentation]                 User keyword to login to a URL and verify the text given by user
+    [Documentation]     User keyword to login to a URL and verify the text given by user
     [Arguments]                     ${URL}                      ${Text}
     GoTo                        ${URL}
     VerifyText                 ${Text}
