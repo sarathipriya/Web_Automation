@@ -24,9 +24,9 @@ Verify Cart Value
     VerifyElement      ${XpathValue}  
 LoginDetails
     [Documentation]    User keyword to get login details                           
-    [Arguments]       ${URL}      ${userxpath}    ${username}    ${passwordxpath}     ${password}     ${dropdownxpath}    ${dropdownvalue}
+    [Arguments]       ${URL}      ${userxpath}    ${username}    ${passwordxpath}     ${password}     ${dropdownxpath} 
     GoTo              ${URL}  
-    DropDown          ${dropdownxpath}    ${dropdownvalue}
+    ClickElement          ${dropdownxpath}
     ClickElement     ${userxpath}
     TypeText         ${userxpath}                      ${username} 
     ClickElement     ${passwordxpath}
